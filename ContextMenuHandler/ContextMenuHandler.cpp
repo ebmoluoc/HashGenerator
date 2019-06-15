@@ -3,7 +3,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-ContextMenuHandler::ContextMenuHandler(Dll& dll) : dll_{ dll }, refCount_{ 1 }, hBitmapMenu_{ nullptr }, submenuList_{ PRODUCT_SUBMENUS_W }
+ContextMenuHandler::ContextMenuHandler(Dll& dll) : dll_{ dll }, refCount_{ 1 }, submenuList_{ PRODUCT_SUBMENUS_W }
 {
 	dll_.AddRef();
 

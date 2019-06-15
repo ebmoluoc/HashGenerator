@@ -21,7 +21,7 @@ public:
 private:
 	Dll& dll_;
 	ULONG refCount_;
-	HBITMAP hBitmapMenu_;
 	std::vector<std::wstring> submenuList_;
+	HBITMAP hBitmapMenu_;
 	hlp::DropFilesList pathList_;
 };
