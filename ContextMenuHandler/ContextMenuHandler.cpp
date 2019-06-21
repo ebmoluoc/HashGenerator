@@ -141,7 +141,7 @@ IFACEMETHODIMP ContextMenuHandler::InvokeCommand(LPCMINVOKECOMMANDINFO pici)
 	auto menuIndex{ LOWORD(pici->lpVerb) };
 	auto hashName{ submenuList_[menuIndex] };
 
-	auto filePath{ pathList_.GetItems()[0] };
+	auto filePath{ pathList_.GetFirstItem() };
 	auto exePath{ hlp::RenamePath(dll_.Path(), L"HashGenerator.exe") };
 
 	auto argHash{ hlp::EscapeArgument(hashName) };
