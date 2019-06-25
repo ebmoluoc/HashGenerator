@@ -60,7 +60,7 @@ namespace HashGenerator.ViewModels
         public DelegateCommand ComputeCommand { get; }
 
 
-        public static string WindowTitle
+        public string WindowTitle
         {
             get { return AppHelper.AssemblyInfo.Title; }
         }
