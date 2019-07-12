@@ -1,5 +1,4 @@
 ﻿using CsharpHelpers.Helpers;
-using CsharpHelpers.NotifyServices;
 using CsharpHelpers.WindowServices;
 using HashGenerator.Errors;
 using HashGenerator.Services;

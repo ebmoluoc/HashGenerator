@@ -1,5 +1,5 @@
 ﻿using CsharpHelpers.Helpers;
-using CsharpHelpers.NotifyServices;
+using CsharpHelpers.WindowServices;
 using System.Runtime.CompilerServices;
 
 namespace HashGenerator.Errors

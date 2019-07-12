@@ -1,4 +1,4 @@
-﻿using CsharpHelpers.NotifyServices;
+﻿using CsharpHelpers.WindowServices;
 using HashGenerator.Services;
 using System.Runtime.CompilerServices;
 
